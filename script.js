@@ -25,7 +25,7 @@ function speak() {
   const selectedIndex = document.getElementById('voiceSelect').value;
 
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.voice = voices[selectedIndex];
+  utterance.voice = voices[document.getElementById('voiceSelect').selectedIndex];
   utterance.rate = parseFloat(rate);
   speechSynthesis.speak(utterance);
 }
