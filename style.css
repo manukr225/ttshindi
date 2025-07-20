@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f9ff;
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #0086ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
